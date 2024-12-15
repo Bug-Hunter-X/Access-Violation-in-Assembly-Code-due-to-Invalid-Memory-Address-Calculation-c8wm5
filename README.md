@@ -1,0 +1,1 @@
+This repository contains an example of an uncommon error in assembly code that causes an access violation. The error occurs because the address calculated by ebx + ecx*4 is outside of the valid memory range. This can happen due to incorrect register values or memory allocation problems. The bug.asm file shows the buggy code, while bugSolution.asm provides the corrected code.
